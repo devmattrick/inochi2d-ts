@@ -6,8 +6,7 @@
 */
 import { Euler, Matrix4, Vector2, Vector3 } from 'three';
 
-export
-class Transform {
+export class Transform {
     private trs: Matrix4 = new Matrix4().identity();
     rot: Vector3 = new Vector3(0, 0, 0);
     scale: Vector2 = new Vector2(1, 1);

@@ -10,8 +10,7 @@ import { Transform } from "../math/transform";
 /**
  * Basetype for all nodes
 */
-export
-class Node {
+export class Node {
     children: Node[] = new Array<Node>(0);
     enabled: boolean = true;
     lockToRoot: boolean = false;
