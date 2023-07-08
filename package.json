@@ -11,13 +11,16 @@
   "devDependencies": {
     "@types/three": "^0.146.0",
     "typescript": "^4.6.4",
-    "vite": "^3.2.3"
+    "vite": "^3.2.3",
+    "three": "^0.146.0"
   },
   "dependencies": {
     "@lunapaint/tga-codec": "^0.1.0",
     "binary-parser": "^2.2.1",
-    "fast-png": "^6.1.0",
-    "three": "^0.146.0"
+    "fast-png": "^6.1.0"
+  },
+  "peerDependencies": {
+    "three": ">=0.146.0"
   },
   "files": [
     "dist"
