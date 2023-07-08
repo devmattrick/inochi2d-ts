@@ -35,7 +35,7 @@ export async function inImport(filebuffer: Uint8Array): Promise<Puppet> {
         switch(t) {
             case 0:
                 textureLoads.push(
-                    new Promise((complete, failure) => {
+                    new Promise((complete) => {
                         // Load PNG file from memory stream
                         let png = decode(data)
                         let texture = new THREE.DataTexture(png.data, png.width, png.height);

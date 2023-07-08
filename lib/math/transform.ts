@@ -4,7 +4,7 @@
     
     Authors: Luna Nielsen
 */
-import { Euler, Matrix, Matrix4, Vector2, Vector3 } from 'three';
+import { Euler, Matrix4, Vector2, Vector3 } from 'three';
 
 export
 class Transform {
